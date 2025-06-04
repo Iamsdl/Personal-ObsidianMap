@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "1d1f378337fa35b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "1931c8e4b6c4ca89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d968dc5552a27551",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Programming.canvas",
+                "viewState": {
+                  "x": 6514.671411960717,
+                  "y": -3112.4758057449826,
+                  "zoom": -4
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Programming"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ea3a41d304d9e147",
+    "type": "split",
+    "children": [
+      {
+        "id": "6113263d111c7968",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "388e8de41f26fc91",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7924bc1d717be23b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "static",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7ef60ad8f1ea3760",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "263e3933b8024e94",
+    "type": "split",
+    "children": [
+      {
+        "id": "556cc8271c52d2c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "379bc28ba56319d2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Members.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Members"
+            }
+          },
+          {
+            "id": "8f2c0ec36d217de1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Members.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Members"
+            }
+          },
+          {
+            "id": "3e7170624efa717e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cf851f0602e2147f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Members.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Members"
+            }
+          },
+          {
+            "id": "0d7c84108d423f3b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "388e8de41f26fc91",
+  "lastOpenFiles": [
+    "Level 4 - Classes/Members/Events.md",
+    "Programming.canvas",
+    "Level 6 - Generics and Delegates/Generic delegates.md",
+    "Math/Mathematical Functions.md",
+    "Level 7 - Metadata/Reflection.md",
+    "Level 7 - Metadata/Attributes.md",
+    "Level 7 - Metadata",
+    "Level 6 - Generics and Delegates/Lambda expressions.md",
+    "Level 6 - Generics and Delegates/Anonymous functions.md",
+    "Level 6 - Generics and Delegates/Generic constraints.md",
+    "Level 6 - Generics and Delegates/Generics.md",
+    "Level 6 - Generics and Delegates/Delegates.md",
+    "Level 1- The basics/Type safety.md",
+    "Level 4 - Classes/Enums.md",
+    "Level 5 - inheritance/Interfaces.md",
+    "Level 6 - Generics and Delegates",
+    "Level 4 - Classes/Partial.md",
+    "Level 4 - Classes/Clearing up confusing terminology.md",
+    "Level 5 - inheritance/Sealed.md",
+    "Level 5 - inheritance/Overriding.md",
+    "Level 5 - inheritance/Hexadecimal.md",
+    "Level 5 - inheritance/Member Access Modifiers - Inheritance.md",
+    "Math/Inheritance.md",
+    "Level 5 - inheritance",
+    "Level 4 - Classes/Record.md",
+    "Level 4 - Classes/Struct.md",
+    "Level 4 - Classes/Members/Write modifiers.md",
+    "Level 4 - Classes/Static.md",
+    "Object.md",
+    "Level 4 - Classes/Members",
+    "Level 4 - Classes",
+    "Pasted image 20250329145012.png",
+    "Evolutionary architecture"
+  ]
+}

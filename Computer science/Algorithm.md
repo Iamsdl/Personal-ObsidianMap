@@ -1,0 +1,1 @@
+An algorithm is a [[finite]] [[Set|set]] of [[Instructions (statements)|instructions]].

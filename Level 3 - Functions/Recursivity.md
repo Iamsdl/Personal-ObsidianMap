@@ -1,0 +1,2 @@
+Recursive is the term used to describe a function that [[Functions#Function invocation|calls]] itself.
+The only thing you need to watch out for is the stop condition, otherwise you risk creating a function that calls itself ad infinitum, similar to [[Loops#The while loop|an infinite loop]].
