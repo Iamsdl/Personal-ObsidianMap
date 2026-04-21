@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"b443e868519d7ccc","type":"text","text":"docker build  \\<dir\\>\nlooks for Dockerfile by default","x":-540,"y":-220,"width":350,"height":60},
+		{"id":"3e6c290f8aaaa294","x":-53,"y":-92,"width":250,"height":60,"type":"text","text":"-it\n= interactive"},
+		{"id":"80854ce5ee9fd525","x":-53,"y":0,"width":250,"height":60,"type":"text","text":"--rm\nremove when closed"},
+		{"id":"f1076c0c78073c8d","x":-53,"y":100,"width":250,"height":96,"type":"text","text":"-w \\<dir\\>\nset working directory inside the container"},
+		{"id":"ee0528fc35c86897","x":-53,"y":220,"width":250,"height":127,"type":"text","text":"-v \\<outdir\\>:\\<\\indir>\n\n"},
+		{"id":"7615efc1356feb95","x":-53,"y":-220,"width":250,"height":60,"type":"text","text":"-t \\<tag\\>\n= name"},
+		{"id":"7dc7b583278aa92c","x":-53,"y":-340,"width":250,"height":69,"type":"text","text":"-f \\<FilePath\\>\nfile"},
+		{"id":"519ba47a0c01b410","x":-940,"y":-747,"width":250,"height":60,"type":"text","text":"microsoft repo\nmcr.microsoft.com"},
+		{"id":"855590f8d13ab05e","x":-940,"y":-820,"width":292,"height":60,"type":"text","text":"sudo systemctl start docker"},
+		{"id":"5b260f8796f9e719","x":-940,"y":-940,"width":362,"height":94,"type":"text","text":"sudo usermod -aG docker $USER\n= append user to group"},
+		{"id":"a6e23abd6de87ea8","x":-440,"y":-520,"width":250,"height":60,"type":"text","text":"docker image ls"},
+		{"id":"b97c9607df539433","x":-540,"y":-92,"width":350,"height":60,"type":"text","text":"docker run \\<params\\> \\<ImageName\\>"},
+		{"id":"c17c357b3224e1c5","x":300,"y":254,"width":250,"height":60,"type":"text","text":"\"$PWD\"\ncurrent directory"},
+		{"id":"97c2899dd6682eff","x":300,"y":347,"width":439,"height":69,"type":"text","text":"--mount type=bind,source=\"$(pwd)\",target=/app"}
+	],
+	"edges":[
+		{"id":"316c215498a6139a","fromNode":"b443e868519d7ccc","fromSide":"right","toNode":"7615efc1356feb95","toSide":"left"},
+		{"id":"7f5e9981966e919b","fromNode":"b97c9607df539433","fromSide":"right","toNode":"3e6c290f8aaaa294","toSide":"left"},
+		{"id":"28d5ade5ac37d6d2","fromNode":"b97c9607df539433","fromSide":"right","toNode":"80854ce5ee9fd525","toSide":"left"},
+		{"id":"93d70811fb3c4055","fromNode":"b97c9607df539433","fromSide":"right","toNode":"f1076c0c78073c8d","toSide":"left"},
+		{"id":"523b38f011557856","fromNode":"b97c9607df539433","fromSide":"right","toNode":"ee0528fc35c86897","toSide":"left"},
+		{"id":"5e5d3cd20f72ac11","fromNode":"b443e868519d7ccc","fromSide":"right","toNode":"7dc7b583278aa92c","toSide":"left"},
+		{"id":"84546cf683bb37a9","fromNode":"ee0528fc35c86897","fromSide":"right","toNode":"c17c357b3224e1c5","toSide":"left"},
+		{"id":"fe520ccb5659eeb1","fromNode":"ee0528fc35c86897","fromSide":"right","toNode":"97c2899dd6682eff","toSide":"left"}
+	]
+}

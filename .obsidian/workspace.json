@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1931c8e4b6c4ca89",
+        "id": "62deb272a4e93533",
         "type": "tabs",
         "children": [
           {
-            "id": "d968dc5552a27551",
+            "id": "f3505f9edbacd4ed",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Programming.canvas",
+                "file": "Software Dev/Programming/Programming.canvas",
                 "viewState": {
-                  "x": 6514.671411960717,
-                  "y": -3112.4758057449826,
-                  "zoom": -4
+                  "x": 6000,
+                  "y": -2840,
+                  "zoom": -3.9992420829660786
                 }
               },
-              "pinned": true,
               "icon": "lucide-layout-dashboard",
               "title": "Programming"
             }
@@ -58,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "static",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Members.md",
+                "file": "Programming/Overview/Programming.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Members"
+              "title": "Backlinks for Programming"
             }
           },
           {
@@ -179,6 +177,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -187,40 +186,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "388e8de41f26fc91",
+  "active": "f3505f9edbacd4ed",
   "lastOpenFiles": [
-    "Level 4 - Classes/Members/Events.md",
-    "Programming.canvas",
-    "Level 6 - Generics and Delegates/Generic delegates.md",
-    "Math/Mathematical Functions.md",
-    "Level 7 - Metadata/Reflection.md",
-    "Level 7 - Metadata/Attributes.md",
-    "Level 7 - Metadata",
-    "Level 6 - Generics and Delegates/Lambda expressions.md",
-    "Level 6 - Generics and Delegates/Anonymous functions.md",
-    "Level 6 - Generics and Delegates/Generic constraints.md",
-    "Level 6 - Generics and Delegates/Generics.md",
-    "Level 6 - Generics and Delegates/Delegates.md",
-    "Level 1- The basics/Type safety.md",
-    "Level 4 - Classes/Enums.md",
-    "Level 5 - inheritance/Interfaces.md",
-    "Level 6 - Generics and Delegates",
-    "Level 4 - Classes/Partial.md",
-    "Level 4 - Classes/Clearing up confusing terminology.md",
-    "Level 5 - inheritance/Sealed.md",
-    "Level 5 - inheritance/Overriding.md",
-    "Level 5 - inheritance/Hexadecimal.md",
-    "Level 5 - inheritance/Member Access Modifiers - Inheritance.md",
-    "Math/Inheritance.md",
-    "Level 5 - inheritance",
-    "Level 4 - Classes/Record.md",
-    "Level 4 - Classes/Struct.md",
-    "Level 4 - Classes/Members/Write modifiers.md",
-    "Level 4 - Classes/Static.md",
-    "Object.md",
-    "Level 4 - Classes/Members",
-    "Level 4 - Classes",
-    "Pasted image 20250329145012.png",
-    "Evolutionary architecture"
+    "Software Dev/Design patterns/Creational/Builder.md",
+    "Drawing/Drawing.canvas",
+    "Software Dev/Design patterns/Design patterns.canvas",
+    "Software Dev/Programming/Programming.canvas",
+    "Software Dev/Aggregate.canvas",
+    "Software Dev/Git/Git CLI.canvas",
+    "Untitled.base",
+    "Software Dev/Dotnet CLI.canvas",
+    "Linux/Bluetoothctl.md",
+    "Drawing/Setup and Jargon.md",
+    "Drawing/What is a drawing?.md",
+    "Drawing/Preliminaries/Dimension vs Degree of Freedom.md",
+    "Drawing/Preliminaries/Dimension of an object.md",
+    "Math/Tangent.md",
+    "Drawing/Preliminaries/Projection.md",
+    "Drawing/Preliminaries",
+    "Math/Projection.md",
+    "Math/Matrix.md",
+    "Math/Number sets.md",
+    "Linux/Steam deck mount.md",
+    "Linux",
+    "Software Dev/Architecture types.md",
+    "Drawing",
+    "Software Dev/Evolutionary architecture/bit rot.md",
+    "Software Dev/Domain Driven Design/Domain Service.md",
+    "Software Dev/Domain Driven Design/Domain Event.md",
+    "Software Dev/Domain Driven Design/Aggregate.md",
+    "Software Dev/Domain Driven Design/Entity.md",
+    "Software Dev/Domain Driven Design/Value Object.md",
+    "Software Dev/Domain Driven Design",
+    "Software Dev/Docker/Docker CLI.canvas",
+    "Software Dev/Design patterns/Behavioral/Visitor.md",
+    "Software Dev/Design patterns/Behavioral/Chain of responsibility.md",
+    "Software Dev/Design patterns/Behavioral/Template Method.md",
+    "Software Dev/Design patterns/Behavioral/Strategy.md",
+    "Software Dev/Design patterns/Behavioral/State.md",
+    "Software Dev/Design patterns/Behavioral/Observer.md",
+    "Software Dev/Design patterns/Behavioral/Memento.md",
+    "Software Dev/Design patterns/Behavioral",
+    "Untitled.canvas",
+    "Software Dev/Design patterns/Structural",
+    "Design patterns.canvas",
+    "Software Dev/Design patterns/Creational",
+    "Software Dev/Design patterns",
+    "Software Dev/Programming",
+    "Pasted image 20250329145012.png"
   ]
 }

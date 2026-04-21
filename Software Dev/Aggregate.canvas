@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"49efa7f4b891f5a1","type":"text","text":"That's all the tools a language usually provides. If you know all that, you know how to code. Unfortunately that's not enough. You can have the best wood, nails, and hammer, but you still won't build a good table if you don't know how to use them properly.\n\nCoding is similar. Writing good, maintainable code requires more learning.","x":-220,"y":-414,"width":464,"height":253},
+		{"id":"7577997a04800c94","type":"file","file":"Software Dev/Programming/Programming.canvas","x":-1100,"y":-527,"width":600,"height":479},
+		{"id":"fff495fd80c4b755","type":"file","file":"Software Dev/Design patterns/Design patterns.canvas","x":520,"y":-418,"width":280,"height":262}
+	],
+	"edges":[
+		{"id":"8e6dac4e5310fc9f","fromNode":"7577997a04800c94","fromSide":"right","toNode":"49efa7f4b891f5a1","toSide":"left"},
+		{"id":"b637483d756aab65","fromNode":"49efa7f4b891f5a1","fromSide":"right","toNode":"fff495fd80c4b755","toSide":"left"}
+	]
+}

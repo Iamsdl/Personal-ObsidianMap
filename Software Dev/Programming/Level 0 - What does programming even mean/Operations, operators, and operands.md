@@ -25,5 +25,7 @@ An **operand** is a value or object that an [[#Operations|operation]] or [[#Oper
 Examples:
 - In `2 + 3`, both `2` and `3` are operands.
 - In "cutting a pear", the pear is the operand.
-> Note: Operations can sometimes *become* operands themselves.  
+> Operations can sometimes *become* operands themselves.  
 > Example: In `f(g(x))`, `g(x)` is a function invocation used as an operand for `f`.
+
+> In practice, since anything can become an operand for the right operation, operands are referred to as [[Object|objects]].

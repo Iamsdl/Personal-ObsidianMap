@@ -2,7 +2,7 @@ An instruction is an action that can be carried out by someone or something.
 In the context of programming, they are [[Execution|executed by the computer]].
 Programming instructions can be thought of as statements, which are broken into:
 # Imperative statements
-This results in the computer doing something on the spot. Performing an [[Operations, operators, and operands#Operation|operation]] basically.
+This results in the computer doing something on the spot. Performing an [[Operations, operators, and operands#Operations|operation]] basically.
 # Declarative statements
 The computer will not do anything... **yet**. Declarative statements is just you presenting information to the computer. 
 

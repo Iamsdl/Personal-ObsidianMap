@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"8e99bde6a0dfcb30","type":"group","x":520,"y":40,"width":1960,"height":2320,"label":"Structural patterns"},
+		{"id":"037a87e54a181178","type":"group","x":520,"y":2560,"width":1960,"height":1920,"label":"Behavioural patterns"},
+		{"id":"7fa20b67a71555d2","type":"group","x":520,"y":-1320,"width":1920,"height":1200,"label":"Creational patterns"},
+		{"id":"ed300ae4b96b1baa","type":"file","file":"Software Dev/Design patterns/Creational/Factory Method.md","x":580,"y":-580,"width":580,"height":400},
+		{"id":"ff5aa3379cd771d0","type":"file","file":"Software Dev/Design patterns/Creational/Abstract Factory.md","x":1200,"y":-580,"width":580,"height":400},
+		{"id":"e6eaa627a9b3e5f5","type":"file","file":"Software Dev/Design patterns/Creational/Singleton.md","x":580,"y":-1160,"width":580,"height":540},
+		{"id":"86b7315e4ae64100","type":"file","file":"Software Dev/Design patterns/Creational/Prototype.md","x":1200,"y":-1160,"width":580,"height":540},
+		{"id":"29e4e26a8c97269a","type":"file","file":"Software Dev/Design patterns/Creational/Builder.md","x":1820,"y":-1160,"width":580,"height":540},
+		{"id":"a9ea56d2de8815c7","type":"text","text":"These patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.","x":580,"y":-1280,"width":560,"height":80},
+		{"id":"6e276d3b64896497","type":"file","file":"Software Dev/Design patterns/What are design patterns?.md","x":-1160,"y":1000,"width":400,"height":400},
+		{"id":"c9846d6a04c8b158","type":"file","file":"Software Dev/Design patterns/Structural/Proxy.md","x":1840,"y":120,"width":580,"height":480},
+		{"id":"265e4ec5529e1891","type":"file","file":"Software Dev/Design patterns/Structural/Composite.md","x":1840,"y":680,"width":580,"height":480},
+		{"id":"71470cdd849ab951","type":"file","file":"Software Dev/Design patterns/Structural/Decorator.md","x":1840,"y":1240,"width":580,"height":480},
+		{"id":"6c9aad8506019e25","type":"file","file":"Software Dev/Design patterns/Structural/Facade.md","x":1840,"y":1800,"width":580,"height":480},
+		{"id":"110e0dc61bc7f9a4","type":"file","file":"Software Dev/Design patterns/Structural/Adapter.md","x":1200,"y":120,"width":580,"height":480},
+		{"id":"da35bba59a1f4ce0","type":"file","file":"Software Dev/Design patterns/Structural/Bridge.md","x":1200,"y":680,"width":580,"height":480},
+		{"id":"b1be670d6e64cd05","type":"file","file":"Software Dev/Design patterns/Structural/Flyweight.md","x":1200,"y":1240,"width":580,"height":480},
+		{"id":"1afb0d2483c67bed","x":580,"y":2640,"width":400,"height":400,"type":"file","file":"Software Dev/Design patterns/Behavioral/Chain of responsibility.md"},
+		{"id":"aa80f83d9bf5eb8d","x":1020,"y":2640,"width":400,"height":400,"type":"file","file":"Software Dev/Design patterns/Behavioral/Command.md"},
+		{"id":"df4a7653f90ecf3a","x":580,"y":3100,"width":400,"height":400,"type":"file","file":"Software Dev/Design patterns/Behavioral/Mediator.md"},
+		{"id":"bbb6e5d40be0148e","x":1020,"y":3100,"width":400,"height":400,"type":"file","file":"Software Dev/Design patterns/Behavioral/Memento.md"},
+		{"id":"5988bbdecc1622eb","x":1020,"y":3580,"width":400,"height":400,"type":"file","file":"Software Dev/Design patterns/Behavioral/Strategy.md"},
+		{"id":"e3abf36b5292817a","x":580,"y":3580,"width":400,"height":400,"type":"file","file":"Software Dev/Design patterns/Behavioral/State.md"},
+		{"id":"c0b2e18edd981bd4","x":1460,"y":3100,"width":400,"height":400,"type":"file","file":"Software Dev/Design patterns/Behavioral/Observer.md"},
+		{"id":"c9de0cd890e3f835","x":1460,"y":3580,"width":400,"height":400,"type":"file","file":"Software Dev/Design patterns/Behavioral/Template Method.md"},
+		{"id":"70c82b9c5dd83e25","x":1460,"y":2640,"width":400,"height":400,"type":"file","file":"Software Dev/Design patterns/Behavioral/Iterator.md"},
+		{"id":"e8616c2070440fb9","x":1900,"y":3100,"width":400,"height":400,"type":"file","file":"Software Dev/Design patterns/Behavioral/Visitor.md"}
+	],
+	"edges":[
+		{"id":"43d2cd5ebf4c1a84","fromNode":"6e276d3b64896497","fromSide":"right","toNode":"7fa20b67a71555d2","toSide":"left"},
+		{"id":"d4880d1d887cd949","fromNode":"6e276d3b64896497","fromSide":"right","toNode":"8e99bde6a0dfcb30","toSide":"left"},
+		{"id":"7bf0034964d367ba","fromNode":"6e276d3b64896497","fromSide":"right","toNode":"037a87e54a181178","toSide":"left"}
+	]
+}

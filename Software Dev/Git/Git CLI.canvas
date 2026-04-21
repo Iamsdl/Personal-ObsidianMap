@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"8ff673bf725880a4","type":"text","text":"git commit","x":-950,"y":-440,"width":250,"height":60},
+		{"id":"a8a2a366914f196d","type":"text","text":"git fetch","x":-680,"y":-440,"width":250,"height":60},
+		{"id":"d2b5e3d203db41e0","type":"text","text":"git pull","x":-680,"y":-360,"width":250,"height":60},
+		{"id":"9c2626f240dfb60f","type":"text","text":"git branch","x":-410,"y":-530,"width":250,"height":60},
+		{"id":"fa0dcbea12dfb87e","type":"text","text":"git cherry-pick","x":-950,"y":-360,"width":250,"height":60},
+		{"id":"831da7649b7ea21f","type":"text","text":"git push","x":-410,"y":-360,"width":250,"height":60},
+		{"id":"1f8cf0164e86c090","type":"text","text":"git remote add origin <REMOTE_URL>","x":-950,"y":-680,"width":354,"height":50},
+		{"id":"e1e697b8f79ad745","type":"text","text":"eval $(ssh-agent)","x":-1140,"y":-1040,"width":250,"height":60},
+		{"id":"0c28edf0f5380687","type":"text","text":"ssh-add -L","x":-1410,"y":-940,"width":250,"height":60},
+		{"id":"c31252fb7aea1262","type":"text","text":"ssh-add \\<key\\>","x":-1140,"y":-940,"width":250,"height":60},
+		{"id":"6e4dd7d4797dcf95","type":"text","text":"--set-upstream-to={remote branch}","x":-60,"y":-531,"width":384,"height":61},
+		{"id":"9ca4358e559f7df6","type":"text","text":"access token is in remote URL","x":-1620,"y":-800,"width":250,"height":60},
+		{"id":"1e956d6dfa0aba59","x":-60,"y":-360,"width":384,"height":60,"type":"text","text":"--set-upstream origin {remote branch}"}
+	],
+	"edges":[
+		{"id":"1ae2ce8ec5b5c4b6","fromNode":"9c2626f240dfb60f","fromSide":"right","toNode":"6e4dd7d4797dcf95","toSide":"left"},
+		{"id":"d587843139c99f14","fromNode":"831da7649b7ea21f","fromSide":"right","toNode":"1e956d6dfa0aba59","toSide":"left"}
+	]
+}

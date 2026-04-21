@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"5611cdbe3df5a4cb","type":"group","x":-660,"y":-480,"width":1700,"height":1140,"label":"Preliminaries"},
+		{"id":"7b944a768d3dcb44","type":"file","file":"Drawing/Preliminaries/Dimension vs Degree of Freedom.md","x":-580,"y":-400,"width":740,"height":600},
+		{"id":"e90a5a2acd66a524","type":"file","file":"Drawing/Preliminaries/Projection.md","x":-160,"y":320,"width":760,"height":280},
+		{"id":"4134e7f1ea450eea","type":"file","file":"Drawing/What is a drawing?.md","x":-310,"y":720,"width":1060,"height":600},
+		{"id":"37a662715d3595c7","type":"file","file":"Drawing/Setup and Jargon.md","x":-276,"y":1400,"width":993,"height":560},
+		{"id":"95bf418ba69d9e01","type":"file","file":"Drawing/Preliminaries/Dimension of an object.md","x":260,"y":-380,"width":720,"height":560}
+	],
+	"edges":[
+		{"id":"592a7efbfdaa5972","fromNode":"7b944a768d3dcb44","fromSide":"right","toNode":"95bf418ba69d9e01","toSide":"left"},
+		{"id":"f7a5ec328ff78669","fromNode":"7b944a768d3dcb44","fromSide":"bottom","toNode":"e90a5a2acd66a524","toSide":"top"},
+		{"id":"110a459242de1ef6","fromNode":"95bf418ba69d9e01","fromSide":"bottom","toNode":"e90a5a2acd66a524","toSide":"top"},
+		{"id":"bb90b36833727780","fromNode":"e90a5a2acd66a524","fromSide":"bottom","toNode":"4134e7f1ea450eea","toSide":"top"},
+		{"id":"b36d44ca5478bb99","fromNode":"4134e7f1ea450eea","fromSide":"bottom","toNode":"37a662715d3595c7","toSide":"top"}
+	]
+}

@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "file:-.canvas",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -10,13 +10,13 @@
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.91197916666667,
+  "nodeSizeMultiplier": 1.65677083333333,
   "lineSizeMultiplier": 5,
   "collapse-forces": false,
-  "centerStrength": 0.197916666666667,
-  "repelStrength": 13.75,
-  "linkStrength": 0.984375,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 16.0416666666667,
+  "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.200225830078125,
-  "close": true
+  "scale": 0.3003387451171875,
+  "close": false
 }

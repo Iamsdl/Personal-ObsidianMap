@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"beed8f359a7dbe85","type":"text","text":"dotnet new sln -n \\<name\\>","x":-580,"y":-400,"width":357,"height":60},
+		{"id":"1a784365711797d4","x":-580,"y":-300,"width":357,"height":60,"type":"text","text":"dotnet new console -n \\<name\\>"},
+		{"id":"232c33cfd1e5a6fd","x":-580,"y":-200,"width":318,"height":60,"type":"text","text":"dotnet build"},
+		{"id":"0cf6f062a7a34d50","type":"text","text":"dotnet run","x":-580,"y":-100,"width":318,"height":60},
+		{"id":"54ef28791eaf1719","x":-160,"y":-200,"width":250,"height":60,"type":"text","text":"--project \\<csproj\\>"}
+	],
+	"edges":[
+		{"id":"0e1d2b8dc6faeb03","fromNode":"232c33cfd1e5a6fd","fromSide":"right","toNode":"54ef28791eaf1719","toSide":"left"},
+		{"id":"b14c7bb23411ee9c","fromNode":"0cf6f062a7a34d50","fromSide":"right","toNode":"54ef28791eaf1719","toSide":"left"}
+	]
+}
