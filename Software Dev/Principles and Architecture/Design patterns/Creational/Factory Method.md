@@ -1,0 +1,1 @@
+Factory method is [[Template Method]] where the steps that varies happens to be how or what type of object is created.

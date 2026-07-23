@@ -1,0 +1,1 @@
+Hide (restrict access to) information the caller doesn't need to know.

@@ -1,0 +1,2 @@
+**Problem**: Who should be responsible for handling an input system event?
+**Solution**: A _use case controller_ should be used to deal with _all_ system events of a use case, and may be used for more than one use case.

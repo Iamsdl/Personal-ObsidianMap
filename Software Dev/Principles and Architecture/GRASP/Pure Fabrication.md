@@ -1,0 +1,1 @@
+A **pure fabrication** is a class that does not represent a concept in the problem domain, specially made up to achieve low coupling, high cohesion, and the reuse potential thereof derived (when a solution presented by the _information expert_ pattern does not). This kind of class is called a "service" in domain-driven design.

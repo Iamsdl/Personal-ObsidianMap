@@ -1,0 +1,1 @@
+Direct connection from [[Classes]]. Group related things together.

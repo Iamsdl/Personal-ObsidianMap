@@ -1,0 +1,1 @@
+See [[Software Dev/Programming/Level 5 - inheritance/Inheritance|Inheritance]].

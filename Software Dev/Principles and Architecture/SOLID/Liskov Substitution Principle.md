@@ -1,0 +1,2 @@
+[[Functions]] that use [[Software Dev/Principles and Architecture/4 pillars of OOP/Inheritance|base classes]] must be able to use [[Software Dev/Principles and Architecture/4 pillars of OOP/Inheritance|derived classes]] without knowing it.
+> Related to [[Software Dev/Principles and Architecture/4 pillars of OOP/Inheritance|Inheritance]]

@@ -1,0 +1,2 @@
+**Problem**: Where to assign responsibility, to avoid direct coupling between two (or more) things? How to de-couple objects so that low coupling is supported and reuse potential remains higher?
+**Solution**: Assign the responsibility to an intermediate object to mediate between other components or services so that they are not directly coupled.

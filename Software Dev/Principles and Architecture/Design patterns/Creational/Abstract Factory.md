@@ -1,0 +1,1 @@
+Like [[Factory Method]], Abstract Factory is a [[Strategy]] in which the thing that varies happens to be how and what type of objects are created.

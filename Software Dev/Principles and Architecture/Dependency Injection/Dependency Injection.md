@@ -1,0 +1,1 @@
+Consequences of [[Dependency Inversion Principle]] and [[Single Responsibility Principle]], a class should not be responsible for managing it's dependencies, it should request them instead (through the constructor).

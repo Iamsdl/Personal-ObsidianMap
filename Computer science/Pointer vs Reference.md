@@ -8,13 +8,13 @@ A pointer is a distinct value type. It has a defined size on a given platform, w
 Basically, pointers are “true” value types in an of themselves and can exist independently of having an object to point to. This is why you can have a null pointer. And since they are true value types, they have their own definition of the following operations, independent of the type they point to:
 
 - To compare a pointer means to compare the memory address, not the content at that memory address.
-    
+
 - To copy/assign a pointer means to copy/assign the memory address, not the content at that memory address.
-    
+
 - Taking the address of a pointer will produce the address of the _pointer object itself_, not the pointed to content.
-    
+
 - “Dereferencing” a pointer produces a _reference_ to the pointed to content. I know, it’s confusing. It made more sense in C when there wasn’t a distinct thing called a reference, so pointers were said to have “reference semantics” and thus “dereferencing” them produced the actual content.
-    
+
 
 When we say a type is “pointer like,” we mean it models the properties above. This is why the smart pointers behave the way they do. It’s also why `std::span` is so confusing. `std::span` looks like a container, so you expect it to behave the way a reference to a container would: comparing it would compare the elements in the span. But you can reassign spans, and that assignment doesn’t reassign the underlying elements, it just reassigns the underlying pointer to point to new elements. So to be consistent, the standard chose the lesser of two evils and made span model a pointer, and thus has pointer semantics all around. When you compare a span, you’re asking “do these spans provide a view onto literally the same content in memory,” just like comparing a pointer. In C++20 they formalized this “container reference API but pointer semantics” notion with the view concept.
 

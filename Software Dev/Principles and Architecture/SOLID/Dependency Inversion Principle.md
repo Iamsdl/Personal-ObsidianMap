@@ -1,0 +1,1 @@
+Depend upon [[Abstraction|abstractions]] ([[Interfaces]]) (defined in the caller's layer/project), not [[Classes|concretes]].

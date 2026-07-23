@@ -8,23 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f3505f9edbacd4ed",
+            "id": "9680ab1488c74cba",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Software Dev/Aggregate.canvas",
+                "viewState": {
+                  "x": -2612.590904916255,
+                  "y": -4195.6850980740655,
+                  "zoom": -1.2000000000000006
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Aggregate"
+            }
+          },
+          {
+            "id": "39a6aa6cf74278e7",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Software Dev/Programming/Programming.canvas",
+                "file": "Software Dev/Dotnet CLI.canvas",
                 "viewState": {
-                  "x": 6000,
-                  "y": -2840,
-                  "zoom": -3.9992420829660786
+                  "x": -245,
+                  "y": -220,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Programming"
+              "title": "Dotnet CLI"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Overview/Programming.canvas",
+                "file": "Software Dev/Aggregate.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +127,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Programming"
+              "title": "Backlinks for Aggregate"
             }
           },
           {
@@ -116,12 +136,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Members.md",
+                "file": "Software Dev/Aggregate.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Members"
+              "title": "Outgoing links from Aggregate"
             }
           },
           {
@@ -145,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Members.md",
+                "file": "Software Dev/Aggregate.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Members"
+              "title": "Outline of Aggregate"
             }
           },
           {
@@ -168,7 +188,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -186,53 +207,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3505f9edbacd4ed",
+  "active": "39a6aa6cf74278e7",
   "lastOpenFiles": [
-    "Software Dev/Design patterns/Creational/Builder.md",
-    "Drawing/Drawing.canvas",
-    "Software Dev/Design patterns/Design patterns.canvas",
-    "Software Dev/Programming/Programming.canvas",
+    "Software Dev/Docker/Docker CLI.canvas",
     "Software Dev/Aggregate.canvas",
     "Software Dev/Git/Git CLI.canvas",
     "Untitled.base",
-    "Software Dev/Dotnet CLI.canvas",
-    "Linux/Bluetoothctl.md",
-    "Drawing/Setup and Jargon.md",
-    "Drawing/What is a drawing?.md",
-    "Drawing/Preliminaries/Dimension vs Degree of Freedom.md",
-    "Drawing/Preliminaries/Dimension of an object.md",
-    "Math/Tangent.md",
-    "Drawing/Preliminaries/Projection.md",
-    "Drawing/Preliminaries",
-    "Math/Projection.md",
-    "Math/Matrix.md",
-    "Math/Number sets.md",
-    "Linux/Steam deck mount.md",
-    "Linux",
+    "Math/State machine.md",
+    "Software Dev/Programming/Programming.canvas",
+    "Software Dev/Principles and Architecture/Low Coupling - High Cohesion.md",
     "Software Dev/Architecture types.md",
+    "Software Dev/Principles and Architecture/Dependency Injection/Decorator.md",
+    "Software Dev/Principles and Architecture/Dependency Injection/Composite.md",
+    "Software Dev/Principles and Architecture/Design patterns/Behavioral/State.md",
+    "Software Dev/Principles and Architecture/Dependency Injection/DI Patterns Composed.md",
+    "Software Dev/Principles and Architecture/Dependency Injection/Dependency Injection Container.md",
+    "Software Dev/Programming/Level 5 - inheritance/Interfaces.md",
+    "Software Dev/Programming/Level 4 - Classes/Clearing up confusing terminology.md",
+    "Software Dev/Programming/Level 0 - What does programming even mean/Object.md",
+    "Software Dev/Principles and Architecture/Dependency Injection/Composition root.md",
+    "Software Dev/Principles and Architecture/Dependency Injection/Composition Root.md",
+    "Software Dev/Principles and Architecture/Dependency Injection",
+    "Software Dev/Principles and Architecture/Dependency Injection/Dependency Injection.md",
+    "Software Dev/Principles and Architecture/Design patterns/Design patterns.canvas",
+    "Software Dev/Principles and Architecture/4 pillars of OOP/Polymorphism.md",
+    "Software Dev/Principles and Architecture/4 pillars of OOP/Inheritance.md",
+    "Software Dev/Principles and Architecture/4 pillars of OOP/Encapsulation.md",
+    "Software Dev/Principles and Architecture/4 pillars of OOP/Abstraction.md",
+    "Software Dev/Principles and Architecture/4 pillars of OOP",
+    "Software Dev/Principles and Architecture/Rules of thumb",
+    "Software Dev/Principles and Architecture/Rules of thumb/KISS + YAGNI.md",
+    "Software Dev/Principles and Architecture/Rules of thumb/DRY.md",
+    "Software Dev/Principles and Architecture/GRASP/Polymorphism.md",
+    "Software Dev/Principles and Architecture/GRASP/Pure Fabrication.md",
+    "Software Dev/Principles and Architecture/GRASP/Creator.md",
+    "Software Dev/Principles and Architecture/GRASP/Controller.md",
+    "Software Dev/Principles and Architecture/GRASP/Indirection.md",
+    "Software Dev/Principles and Architecture/GRASP",
+    "Software Dev/Principles and Architecture/SOLID",
+    "Software Dev/Principles and Architecture",
+    "Drawing/Drawing.canvas",
+    "Software Dev/Dotnet CLI.canvas",
+    "Drawing/Preliminaries",
+    "Linux",
     "Drawing",
-    "Software Dev/Evolutionary architecture/bit rot.md",
-    "Software Dev/Domain Driven Design/Domain Service.md",
-    "Software Dev/Domain Driven Design/Domain Event.md",
-    "Software Dev/Domain Driven Design/Aggregate.md",
-    "Software Dev/Domain Driven Design/Entity.md",
-    "Software Dev/Domain Driven Design/Value Object.md",
-    "Software Dev/Domain Driven Design",
-    "Software Dev/Docker/Docker CLI.canvas",
-    "Software Dev/Design patterns/Behavioral/Visitor.md",
-    "Software Dev/Design patterns/Behavioral/Chain of responsibility.md",
-    "Software Dev/Design patterns/Behavioral/Template Method.md",
-    "Software Dev/Design patterns/Behavioral/Strategy.md",
-    "Software Dev/Design patterns/Behavioral/State.md",
-    "Software Dev/Design patterns/Behavioral/Observer.md",
-    "Software Dev/Design patterns/Behavioral/Memento.md",
-    "Software Dev/Design patterns/Behavioral",
     "Untitled.canvas",
-    "Software Dev/Design patterns/Structural",
     "Design patterns.canvas",
-    "Software Dev/Design patterns/Creational",
-    "Software Dev/Design patterns",
-    "Software Dev/Programming",
     "Pasted image 20250329145012.png"
   ]
 }

@@ -1,7 +1,7 @@
 Sometimes, the actual [[Classes|class]], [[Functions|function]], or [[Data and Variables#Data type|type]] isn't enough to describe all the behavior you want. For this reason, **attributes** exist: they are metadata you can attach to your code.
 They don’t _do_ anything by themselves — they just **describe** something, and it’s up to other code (like frameworks, libraries, or your own tools) to read them and react accordingly.
 # Defining your own attribute
-All attributes are just [[Classes|classes]] that [[Inheritance|inherit]] from `System.Attribute`:
+All attributes are just [[Classes|classes]] that [[Software Dev/Principles and Architecture/4 pillars of OOP/Inheritance|inherit]] from `System.Attribute`:
 ```C#
 public class MyTagAttribute : Attribute
 {

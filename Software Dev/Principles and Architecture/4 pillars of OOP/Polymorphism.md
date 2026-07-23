@@ -1,0 +1,1 @@
+One object taking many forms. Enabled through [[Software Dev/Programming/Level 5 - inheritance/Inheritance|Inheritance]].
