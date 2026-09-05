@@ -1,0 +1,1 @@
+The camera has 3 axes: **X = Left/Right**, **Y = Backward/Forward**, **Z = Up/Down**.

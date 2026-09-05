@@ -1,0 +1,1 @@
+Imagine a sphere centered on the camera. This sphere will be called the **Picture Sphere**.  It's Radius is the **Viewing Distance**.

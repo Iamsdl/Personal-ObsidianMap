@@ -1,0 +1,1 @@
+Imagine also a Rectangle [[Tangent|tangent]] to the Picture Sphere. That is the **Picture Plane**.

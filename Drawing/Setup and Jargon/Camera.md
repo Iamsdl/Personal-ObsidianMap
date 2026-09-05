@@ -1,0 +1,1 @@
+The center of the radial projection is the **eye**, **camera**, or **viewpoint**.

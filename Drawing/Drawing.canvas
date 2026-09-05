@@ -1,17 +1,41 @@
 {
 	"nodes":[
 		{"id":"5611cdbe3df5a4cb","type":"group","x":-660,"y":-480,"width":1700,"height":1140,"label":"Preliminaries"},
-		{"id":"7b944a768d3dcb44","type":"file","file":"Drawing/Preliminaries/Dimension vs Degree of Freedom.md","x":-580,"y":-400,"width":740,"height":600},
-		{"id":"e90a5a2acd66a524","type":"file","file":"Drawing/Preliminaries/Projection.md","x":-160,"y":320,"width":760,"height":280},
+		{"id":"d1685756b22334cf","type":"group","x":-460,"y":1920,"width":1360,"height":320,"label":"Untitled group"},
+		{"id":"4aed6754b023d7b3","type":"file","file":"Drawing/Setup and Jargon/Horizon Line.md","x":20,"y":1960,"width":400,"height":245},
+		{"id":"13945105c3ef6487","type":"file","file":"Drawing/Setup and Jargon/Median Line.md","x":440,"y":1960,"width":400,"height":245},
+		{"id":"f7c7e536b360c86d","type":"file","file":"Drawing/Setup and Jargon/Transversal Line.md","x":-400,"y":1960,"width":400,"height":245},
+		{"id":"51a75af477a485ec","type":"file","file":"Drawing/Setup and Jargon/Principal Point.md","x":240,"y":2320,"width":400,"height":220},
+		{"id":"1db5b5fb489db1cc","type":"file","file":"Drawing/Setup and Jargon/Picture Sphere.md","x":20,"y":1640,"width":400,"height":156},
+		{"id":"2107f1329e5eb111","type":"file","file":"Drawing/Setup and Jargon/Camera Planes.md","x":500,"y":1640,"width":400,"height":156},
+		{"id":"f248c982d8bb4762","type":"file","file":"Drawing/Setup and Jargon/Picture Plane.md","x":-480,"y":1646,"width":400,"height":145},
+		{"id":"146d5537a4308d27","type":"file","file":"Drawing/Setup and Jargon/Vanishing Points.md","x":138,"y":2620,"width":605,"height":660},
+		{"id":"7df18084270a59eb","x":101,"y":3380,"width":679,"height":600,"type":"file","file":"Drawing/Setup and Jargon/Station Points.md"},
+		{"id":"3960e730a5d0df11","type":"file","file":"Drawing/Setup and Jargon/Camera.md","x":20,"y":1400,"width":400,"height":133},
+		{"id":"41f981f18be21284","type":"file","file":"Drawing/Setup and Jargon/Camera Axes.md","x":500,"y":1400,"width":400,"height":133},
 		{"id":"4134e7f1ea450eea","type":"file","file":"Drawing/What is a drawing?.md","x":-310,"y":720,"width":1060,"height":600},
-		{"id":"37a662715d3595c7","type":"file","file":"Drawing/Setup and Jargon.md","x":-276,"y":1400,"width":993,"height":560},
-		{"id":"95bf418ba69d9e01","type":"file","file":"Drawing/Preliminaries/Dimension of an object.md","x":260,"y":-380,"width":720,"height":560}
+		{"id":"e90a5a2acd66a524","type":"file","file":"Drawing/Preliminaries/Projection.md","x":-160,"y":320,"width":760,"height":280},
+		{"id":"7b944a768d3dcb44","type":"file","file":"Drawing/Preliminaries/Dimension vs Degree of Freedom.md","x":-580,"y":-400,"width":740,"height":600},
+		{"id":"95bf418ba69d9e01","type":"file","file":"Drawing/Preliminaries/Dimension of an object.md","x":260,"y":-380,"width":720,"height":560},
+		{"id":"4d403cdc4a1a98d5","x":1020,"y":3380,"width":760,"height":600,"type":"file","file":"Drawing/Setup and Jargon/1, 2 and 3 Point Perspective.md"}
 	],
 	"edges":[
 		{"id":"592a7efbfdaa5972","fromNode":"7b944a768d3dcb44","fromSide":"right","toNode":"95bf418ba69d9e01","toSide":"left"},
 		{"id":"f7a5ec328ff78669","fromNode":"7b944a768d3dcb44","fromSide":"bottom","toNode":"e90a5a2acd66a524","toSide":"top"},
 		{"id":"110a459242de1ef6","fromNode":"95bf418ba69d9e01","fromSide":"bottom","toNode":"e90a5a2acd66a524","toSide":"top"},
 		{"id":"bb90b36833727780","fromNode":"e90a5a2acd66a524","fromSide":"bottom","toNode":"4134e7f1ea450eea","toSide":"top"},
-		{"id":"b36d44ca5478bb99","fromNode":"4134e7f1ea450eea","fromSide":"bottom","toNode":"37a662715d3595c7","toSide":"top"}
+		{"id":"1e4a51b140e80e33","fromNode":"1db5b5fb489db1cc","fromSide":"left","toNode":"f248c982d8bb4762","toSide":"right"},
+		{"id":"9c52b50c60fc6b8d","fromNode":"3960e730a5d0df11","fromSide":"bottom","toNode":"1db5b5fb489db1cc","toSide":"top"},
+		{"id":"5fa68a4376f39180","fromNode":"4134e7f1ea450eea","fromSide":"bottom","toNode":"3960e730a5d0df11","toSide":"top"},
+		{"id":"09da162be7be52bd","fromNode":"3960e730a5d0df11","fromSide":"right","toNode":"41f981f18be21284","toSide":"left"},
+		{"id":"a4399bb20fceddbc","fromNode":"41f981f18be21284","fromSide":"bottom","toNode":"2107f1329e5eb111","toSide":"top"},
+		{"id":"58aa4be3cf60a923","fromNode":"2107f1329e5eb111","fromSide":"bottom","toNode":"d1685756b22334cf","toSide":"top"},
+		{"id":"f13d5a3e1b080399","fromNode":"1db5b5fb489db1cc","fromSide":"bottom","toNode":"d1685756b22334cf","toSide":"top"},
+		{"id":"2cc7ea957ce114ab","fromNode":"f248c982d8bb4762","fromSide":"bottom","toNode":"d1685756b22334cf","toSide":"top"},
+		{"id":"76c571fe5a0bf8d4","fromNode":"13945105c3ef6487","fromSide":"bottom","toNode":"51a75af477a485ec","toSide":"top"},
+		{"id":"126bd7c8be790a15","fromNode":"4aed6754b023d7b3","fromSide":"bottom","toNode":"51a75af477a485ec","toSide":"top"},
+		{"id":"243763f854cd0db9","fromNode":"51a75af477a485ec","fromSide":"bottom","toNode":"146d5537a4308d27","toSide":"top"},
+		{"id":"bfcb7f262064f00e","fromNode":"146d5537a4308d27","fromSide":"bottom","toNode":"7df18084270a59eb","toSide":"top"},
+		{"id":"b3686e56fe59401a","fromNode":"7df18084270a59eb","fromSide":"right","toNode":"4d403cdc4a1a98d5","toSide":"left"}
 	]
 }

@@ -1,0 +1,1 @@
+Which also gives us 3 planes: **XOY = Horizontal Plane**, **YOZ = Vertical Plane**, **XOZ = Transversal Plane**.

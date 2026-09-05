@@ -4,43 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "62deb272a4e93533",
+        "id": "f897d9abd6b3df20",
         "type": "tabs",
         "children": [
           {
-            "id": "9680ab1488c74cba",
+            "id": "01e4125a6f938d22",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Software Dev/Aggregate.canvas",
+                "file": "Drawing/Drawing.canvas",
                 "viewState": {
-                  "x": -2612.590904916255,
-                  "y": -4195.6850980740655,
-                  "zoom": -1.2000000000000006
+                  "x": 1305.1439754728208,
+                  "y": 3706.0874473509266,
+                  "zoom": -2.4
                 }
               },
               "pinned": true,
               "icon": "lucide-layout-dashboard",
-              "title": "Aggregate"
+              "title": "Drawing"
             }
           },
           {
-            "id": "39a6aa6cf74278e7",
+            "id": "b026f71a5fe82a34",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Software Dev/Dotnet CLI.canvas",
+                "file": "Software Dev/Git/Git CLI.canvas",
                 "viewState": {
-                  "x": -245,
-                  "y": -220,
-                  "zoom": 0
+                  "x": -1092.7087442657592,
+                  "y": -902.826593566848,
+                  "zoom": 0.3230986013082453
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Dotnet CLI"
+              "title": "Git CLI"
             }
           }
         ],
@@ -64,7 +64,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -136,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Dev/Aggregate.canvas",
+                "file": "Drawing/Drawing.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Aggregate"
+              "title": "Outgoing links"
             }
           },
           {
@@ -189,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -207,16 +209,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "39a6aa6cf74278e7",
+  "active": "b026f71a5fe82a34",
   "lastOpenFiles": [
-    "Software Dev/Docker/Docker CLI.canvas",
-    "Software Dev/Aggregate.canvas",
-    "Software Dev/Git/Git CLI.canvas",
-    "Untitled.base",
-    "Math/State machine.md",
     "Software Dev/Programming/Programming.canvas",
-    "Software Dev/Principles and Architecture/Low Coupling - High Cohesion.md",
+    "Software Dev/Aggregate.canvas",
+    "Drawing/Drawing.canvas",
+    "Drawing/Setup and Jargon/1, 2 and 3 Point Perspective.md",
+    "Drawing/Setup and Jargon/Station Points.md",
+    "Drawing/Setup and Jargon/Vanishing Points.md",
+    "Drawing/Setup and Jargon/Transversal Line.md",
+    "Drawing/Setup and Jargon/Median Line.md",
+    "Drawing/Setup and Jargon/Horizon Line.md",
+    "Drawing/Setup and Jargon/Camera Planes.md",
+    "Drawing/Setup and Jargon/Camera Axes.md",
+    "Drawing/Setup and Jargon/Camera.md",
+    "Drawing/Setup and Jargon/Picture Plane.md",
+    "Drawing/Setup and Jargon",
+    "Drawing/Setup and Jargon/Picture Sphere.md",
+    "Drawing/Setup and Jargon/Principal Point.md",
+    "Software Dev/Programming/Level 4 - Classes/Members/Casts.md",
+    "2026-08-14.md",
+    "Untitled.base",
+    "Untitled 1.base",
     "Software Dev/Architecture types.md",
+    "Software Dev/Dotnet CLI.canvas",
+    "Software Dev/Git/Git CLI.canvas",
+    "Software Dev/Docker/Docker CLI.canvas",
+    "Math/State machine.md",
+    "Software Dev/Principles and Architecture/Low Coupling - High Cohesion.md",
     "Software Dev/Principles and Architecture/Dependency Injection/Decorator.md",
     "Software Dev/Principles and Architecture/Dependency Injection/Composite.md",
     "Software Dev/Principles and Architecture/Design patterns/Behavioral/State.md",
@@ -225,32 +245,14 @@
     "Software Dev/Programming/Level 5 - inheritance/Interfaces.md",
     "Software Dev/Programming/Level 4 - Classes/Clearing up confusing terminology.md",
     "Software Dev/Programming/Level 0 - What does programming even mean/Object.md",
-    "Software Dev/Principles and Architecture/Dependency Injection/Composition root.md",
-    "Software Dev/Principles and Architecture/Dependency Injection/Composition Root.md",
     "Software Dev/Principles and Architecture/Dependency Injection",
-    "Software Dev/Principles and Architecture/Dependency Injection/Dependency Injection.md",
     "Software Dev/Principles and Architecture/Design patterns/Design patterns.canvas",
-    "Software Dev/Principles and Architecture/4 pillars of OOP/Polymorphism.md",
-    "Software Dev/Principles and Architecture/4 pillars of OOP/Inheritance.md",
-    "Software Dev/Principles and Architecture/4 pillars of OOP/Encapsulation.md",
-    "Software Dev/Principles and Architecture/4 pillars of OOP/Abstraction.md",
     "Software Dev/Principles and Architecture/4 pillars of OOP",
     "Software Dev/Principles and Architecture/Rules of thumb",
-    "Software Dev/Principles and Architecture/Rules of thumb/KISS + YAGNI.md",
-    "Software Dev/Principles and Architecture/Rules of thumb/DRY.md",
-    "Software Dev/Principles and Architecture/GRASP/Polymorphism.md",
-    "Software Dev/Principles and Architecture/GRASP/Pure Fabrication.md",
-    "Software Dev/Principles and Architecture/GRASP/Creator.md",
-    "Software Dev/Principles and Architecture/GRASP/Controller.md",
-    "Software Dev/Principles and Architecture/GRASP/Indirection.md",
     "Software Dev/Principles and Architecture/GRASP",
     "Software Dev/Principles and Architecture/SOLID",
     "Software Dev/Principles and Architecture",
-    "Drawing/Drawing.canvas",
-    "Software Dev/Dotnet CLI.canvas",
     "Drawing/Preliminaries",
-    "Linux",
-    "Drawing",
     "Untitled.canvas",
     "Design patterns.canvas",
     "Pasted image 20250329145012.png"
